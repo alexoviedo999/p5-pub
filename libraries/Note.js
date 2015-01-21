@@ -56,7 +56,7 @@ Note.prototype.setVolume = function(v) {
 */
 Note.prototype.play = function() {
     if (!this.played) {
-        this.osc.noteOn(0); // Play instantly
+        // this.osc.noteOn(0); // Play instantly
     }
 
     this.played = true;
